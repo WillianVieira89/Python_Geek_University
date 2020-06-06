@@ -1,0 +1,5 @@
+n1 = int(input('digite um numero: '))
+n2 = int(input('digite outro numero:'))
+n3 = int(input('digite mais um numero: '))
+smqd = (n1 ** 2) + (n2 ** 2) + (n3 ** 2)
+print(f'A soma dos quadrados é {smqd}')

@@ -1,0 +1,9 @@
+venda = float(input('digite o valor da venda: '))
+venda_vista = venda * 0.90
+venda_parcelada = venda / 3
+comissao_vista = venda_vista * 0.05
+comissao_parcelada = venda * 0.05
+print(f'Venda á vista = {venda_vista}\n'
+      f'Valor parcela em 3X sem juros = {venda_parcelada:.2f}\n'
+      f'Comissão na venda á vista = {comissao_vista:.2f}\n'
+      f'Comissão na venda parcelada = {comissao_parcelada:.2f}')
