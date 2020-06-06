@@ -1,10 +1,11 @@
-altura = float(input("Digite sua altura: ")
+altura = float(input("Digite sua altura: "))
 sexo = input("Digite seu sexo: ")
 
-if sexo == masculino:
-    homens = (72.7 * altura) - 58
-    print("Seu peso ideal é: {homens}")
+homem = (72.7 * altura) - 58
+mulher = (62.1 * altura) - 44.7
+
+if sexo == "masculino":
+    print(f"Seu peso ideal é: {homem:.2f} quilos")
 
 else:
-    mulheres = (62.1 * altura) - 44.7
-    print("Seu peso ideal é: {mulheres}")
+    print(f"Seu peso ideal é: {mulher:.2f} quilos")
