@@ -1,5 +1,3 @@
-import sys
-
 nota1 = float(input('digite sua nota: '))
 nota2 = float(input('digite sua nota: '))
 
