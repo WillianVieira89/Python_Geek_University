@@ -8,4 +8,3 @@ if numero < 0:
 if numero >= 0:
     logaritmo = log(numero, 2)
     print(f"O logaritmo do numero digitado é {logaritmo:.2f}")
-
