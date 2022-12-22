@@ -22,7 +22,7 @@ Exemplas:
 nome = input('Qual seu nome? ')
 
 #exemplo de print 'mais atual' a partir do 3.7
-print(f'Seja bem-vindo (a){nome}')
+print(f'Seja bem-vindo (a) {nome}')
 
 # print("Qual a sua idade")
 # idade = input()
@@ -39,11 +39,11 @@ idade = input('Qual a sua idade? ')
 #print('A {0} tem {1} anos'.format(nome, idade))
 
 #Exemplo de print 'antigo' 3.7
-print(f'A {nome} tem {idade} anos')
+print(f'{nome} tem {idade} anos')
 
 """
 #int(idade) => cast
 Cast é a 'conversão' de um tipo de dado para outro.
 """
 
-print(f'A {nome} nasceu em {2022 - int(idade)}')
+print(f'{nome} nasceu em {2022 - int(idade)}')
