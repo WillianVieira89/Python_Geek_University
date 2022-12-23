@@ -20,6 +20,7 @@ True, False
 """
 
 ativo = False
+# noinspection PyStatementEffect
 print(ativo)
 
 """
