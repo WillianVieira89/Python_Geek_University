@@ -48,7 +48,7 @@ print(ativo or logado)
 
 # E (and):
 """
-Também é uma operação binaria, ou seja, depende de dois valores. Ambos devem ser verdadeiros.
+Também é uma operação binária, ou seja, depende de dois valores. Ambos devem ser verdadeiros.
 
 True and True => True
 True and False => False
