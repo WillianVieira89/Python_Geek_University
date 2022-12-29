@@ -21,7 +21,7 @@ Exemplas:
 
 nome = input('Qual seu nome? ')
 
-#exemplo de print 'mais atual' a partir do 3.7
+# exemplo de print 'mais atual' a partir do 3.7
 print(f'Seja bem-vindo (a) {nome}')
 
 # print("Qual a sua idade")
@@ -29,16 +29,16 @@ print(f'Seja bem-vindo (a) {nome}')
 
 idade = input('Qual a sua idade? ')
 
-#Processamento
+# Processamento
 
-#Saída
-#Exemplo de print 'antigo' 2.x
-#print('A %s tem %s anos' %(nome, idade))
+# Saída
+# Exemplo de print 'antigo' 2.x
+# print('A %s tem %s anos' %(nome, idade))
 
-#Exemplo de print 'antigo' 3.x
-#print('A {0} tem {1} anos'.format(nome, idade))
+# Exemplo de print 'antigo' 3.x
+# print('A {0} tem {1} anos'.format(nome, idade))
 
-#Exemplo de print 'antigo' 3.7
+# Exemplo de print 'antigo' 3.7
 print(f'{nome} tem {idade} anos')
 
 """
