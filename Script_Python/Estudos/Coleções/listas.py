@@ -221,10 +221,6 @@ lista.append(33)
 lista.append(42)
 
 print(lista)
-"""
-
-# Outros métodos não tão importantes mas também são úteis
-# Encontrar o índice de um elemento na lista
 
 numeros = [5, 6, 7, 5, 8, 9, 10]
 
@@ -235,11 +231,40 @@ print(numeros.index(6))
 print(numeros.index(9))
 
 # print(numeros.index(19)) # Gera ValueError
-
+# OBS: Caso não tenha este elemento na lista, será apresentado erro ValueError
 # OBS: Caso tenha mais de um elemento com mesmo valor, retorna o índice do primeiro elemento encontrado
 print(numeros.index(5))
 
 
-# Podemos fazer busca dentro
-
+# Podemos fazer busca dentro de um range, ou seja, qual indice começar a buscar
+print(numeros.index(5, 1))  # buscando a partir do indice 1
+print(numeros.index(5, 2))  # buscando a partir do indice 2
+print(numeros.index(5, 3))  # buscando a partir do indice 3
+print(numeros.index(5, 4))  # buscando a partir do indice 4
 # OBS: Caso não tenha este elemento na lista, será apresentado erro ValueError
+
+# Podemos fazer busca dentro de um range, inicio/fim
+print(numeros.index(8, 3, 6))  # Buscar o indice do valor 8, entre os indices 3 a 6
+
+# Outros métodos não tão importantes mas também são úteis
+# Encontrar o índice de um elemento na lista
+
+
+"""
+
+# Revisão de slicing
+
+#lista[inicio:fim:passo]
+# range(inicio:fim:passo)
+
+# Trabalhando com o slice de lista com o parametro 'inicio'
+
+lista = [1, 2, 3, 4]
+print(lista[1:])  # Iniciando no indice 1 e pegando todos os elementos restantes
+
+# Trabalhando com o slice de lista com o parametro 'fim'
+print(lista[:2])  # começa em 0, pega ate o indice 2 - 1
+print(lista[:4])  # começa em 0, pega até o indice 4 - 1
+print(lista[1:3])  # começa em 1, pega até o indice 3 - 1
+
+# Trabalhando com slice de lista com o parâmetro 'passo'
