@@ -1,19 +1,20 @@
 """
-Listas
+Listas (list)
 
 Listas em Python funcionam como vetores/matrizes (arrays) em outras linguagens, com a diferença de serem
 DINÂMICO e também de podermos colocar QUALQUER tipo de dados.
 
 Linguagens C/Java: Arrays
-    - Possuem tamanho e tipo de dado fixo;
-    Ou seja, nestas linguagens  se você criar um array do tipo int e com tamanho 5, este array
+    — Possuem tamanho e tipo de dado fixo;
+    Ou seja, nestas linguagens se você criar um array do tipo int e com tamanho 5, este array
     será SEMPRE  do tipo inteiro e poderá ter SEMPRE  no máximo 5 valores.
 
 Já em Python:
 
-- Dinâmico: Não possuem tamanho fixo; Ou seja podemos criar a lista e simplesmente ir adicionando elementos;
+- Dinâmico: Não possuem tamanho fixo; Ou seja, podemos criar a lista e simplesmente ir adicionando elementos;
 - Qualquer tipo de dado: As listas não possuem tipo de dado fixo; Ou seja, podemos colocar qualquer tipo de dados;
 - As listas em Python são representadas por colchetes: []
+- As listas são mutáveis: Ou seja, podem mudar constantemente
 
 type([])  # Definição de uma lista
 
