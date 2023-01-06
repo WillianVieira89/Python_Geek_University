@@ -86,6 +86,7 @@ print(tupla2)
 print(tupla3)
 
 tupla1 = tupla1 + tupla2  # Tuplas são imutáveis, mas podemos sobrescrever os seus valores
+
 print(tupla1)
 
 # Verificar se determinado elemento está contido na tupla
@@ -170,6 +171,3 @@ print(tupla)
 # Tuplas deixam o seu código mais seguro.*
 
 # * Isso porque trabalhar com elementos imutáveis traz mais segurança para o seu código
-
-
-
