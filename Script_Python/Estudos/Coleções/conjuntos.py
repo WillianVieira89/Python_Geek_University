@@ -76,8 +76,6 @@ print(type(s))
 for valor in s:
     print(valor)
 
-
-"""
 # Usos interessantes com sets
 
 # Imagine que fizemos um formulário de cadastro de visitantes numa feira ou museu e os visitantes
@@ -98,4 +96,52 @@ s = {1, 2, 3}
 
 s.add(4)
 s.add(4)  # Duplicidade não gera erro. Simplesmente é ignorado e não é adicionado
+print(s)
+
+# Remover elementos em um conjunto
+s = {1, 2, 3}
+
+# Forma 1
+s.remove(3)  # Não é índice! Informamos o valor a ser removido
+print(s)
+
+# OBS: Caso o valor não seja encontrado será retornado um KeyError. Nenhum valor é retornado
+
+# Forma 2
+
+s.discard(2)
+print(s)
+
+# OBS: Caso o valor não seja encontrado nenhum erro será retornado
+
+# Copiando um conjunto para outro ...
+
+s = {1, 2, 3}
+print(s)
+
+# Forma 1 - Deep Copy
+novo = s.copy()
+print(novo)
+
+novo.add(4)
+
+print(novo)
+print(s)
+
+# Forma 2 - Shallow Copy
+
+novo = s
+
+novo.add(4)
+print(novo)
+print(s)
+
+"""
+
+s = {1, 2, 3}
+print(s)
+
+# Podemos remover todos os itens de um conjunto
+
+s.clear()
 print(s)
