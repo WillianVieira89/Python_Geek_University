@@ -94,3 +94,8 @@ print(len(cidades))
 print(len(set(cidades)))
 
 # Adicionando elementos em um conjunto
+s = {1, 2, 3}
+
+s.add(4)
+s.add(4)  # Duplicidade não gera erro. Simplesmente é ignorado e não é adicionado
+print(s)
