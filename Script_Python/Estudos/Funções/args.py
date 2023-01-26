@@ -1,7 +1,7 @@
 """
 Entendendo o *args
 
-- O *args é um parâmetro, como outro qualquer. Isso significa que você poderá
+- O *args é um parâmetro, como outro qualquer. Isso significa que poderá
 chamar de qualquer coisa, desde que comece com asterisco
 
 Exemplo
